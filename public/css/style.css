@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    color: #006C51;
+    margin-top: 6vmin;
+    font-family: "Comic Sans MS";
+}
+h1 {
+    font-size: 8vmin;
+    color: #FF9A00;
+    display: inline;
+}
+h2 {
+    font-size: 4vmin;
+    color: #FF9A00;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    margin: 4vmin;
+}
+#doglist {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#doglist p,
+#doglist input,
+#doglist select {
+    margin: 1vmin;
+}
+.card {
+    border: 1vmin solid #5FD2B5;
+    padding: 2vmin;
+    border-radius: 20px;
+    min-width: 15vmin;
+}
+button {
+    margin: 1vmin;
+    border: 0.3vmin solid #00A67C;
+    background: #5FD2B5;
+    border-radius: 5px;
+    width: 9.3vmin;
+    height: 4vmin;
+    color: white;
+    font-family: "Comic Sans MS";
+}
+button:hover {
+    background: #38c6a2;
+}
+.add {
+    font-size: 1.4em;
+    font-weight: bold;
+    border: 0.3vmin solid #FFB440;
+    background: white;
+    border-radius: 5px;
+    width: 4vmin;
+    height: 4vmin;
+    color: #FFB440;
+    font-family: Arial;
+}
+.add:hover {
+    background: white;
+    color: #FF9A00;
+    border: 0.33vmin solid #FF9A00;
+}
